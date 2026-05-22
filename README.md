@@ -495,7 +495,8 @@ PYTHONPATH=. python train.py --config configs/tinystories_mps_1k.yaml
 PYTHONPATH=. python generate.py \
   --checkpoint checkpoints/tinystories_mps_1k/final.pt \
   --prompt "Once upon a time" \
-  --max_new_tokens 80```
+  --max_new_tokens 80
+```
 
 ### Step 6: Benchmark attention
 
